@@ -50,6 +50,7 @@ g++ ./main.cpp -o ./blockchain.exe -lpcap -lssl -lcrypto -pthread
 
 **Command Line Arguments**  
 > The difficulty of the blockchain can be adjusted by changing the code `#define DIFFICULTY 4` in the [main](./main.cpp) file.
+
 |	Argument		|	Description	|	Default		|
 |	:---:			|	:---:		|	:---:		|
 |	`-h & --help`		|	Help menu	|			|
